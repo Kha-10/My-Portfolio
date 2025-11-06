@@ -49,8 +49,8 @@ export default function AboutMe() {
               whileTap={{ scale: 0.95 }}
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/My resume.pdf"; // Hosted in public folder
-                link.download = "KyawHtetAung_Resume.pdf"; // Suggested filename
+                link.href = "/My resume.pdf";
+                link.download = "KyawHtetAung_Resume.pdf";
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
